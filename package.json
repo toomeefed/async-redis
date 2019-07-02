@@ -1,0 +1,34 @@
+{
+  "name": "@toomee/async-redis",
+  "version": "0.1.0",
+  "description": "First class async &amp; promise support for redis.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toomeefed/async-redis.git"
+  },
+  "keywords": [],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toomeefed/async-redis/issues"
+  },
+  "homepage": "https://github.com/toomeefed/async-redis#readme",
+  "dependencies": {
+    "@types/redis": "^2.8.13",
+    "redis-commands": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "redis": "^2.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
