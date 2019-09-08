@@ -1,6 +1,6 @@
 {
   "name": "@toomee/async-redis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "First class async &amp; promise support for redis.",
   "main": "dist/index.js",
   "scripts": {
@@ -9,8 +9,7 @@
     "test-cov": "jest --coverage"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.ts"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -32,11 +31,11 @@
     "redis-commands": "^1.5.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.10",
-    "jest": "^24.8.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
     "redis": "^2.8.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.2"
+    "typescript": "^3.6.2"
   }
 }
